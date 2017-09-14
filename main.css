@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #4096D8;
+}
+
+
+.logo {
+	height: 35px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+}
+
+form {
+	width: 400px;
+	background-color: white;
+	margin: 30px auto 15px;
+	padding-bottom: 30px;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+legend {
+	font-size: 36px;
+	color: dimgrey;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	height: 55px;
+	font-size: 20px;
+	width: 320px;
+	border: 2px lightgrey solid;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+label, input, button{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+button {
+	width: 320px;
+	height: 55px;
+	border: 0;
+	background-color: #34B65F;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+div.subbutton a {
+	color: grey;
+}
+
+p {
+	text-align: center;
+	font-size: 13px;
+}
+
+div.subtext a,p {
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+button:hover{
+	background-color: #248344;
+}
+
